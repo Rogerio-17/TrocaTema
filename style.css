@@ -63,7 +63,7 @@ html {
   border: none;
   cursor: pointer;
   background-position: 0.4rem;
-  background-image: url(img/sol.svg);
+  background-image: url(img/lua.png);
   background-repeat: no-repeat;
   background-size: 1.3rem;
   margin-bottom: 0.5rem;
@@ -86,7 +86,7 @@ html {
   border: none;
   cursor: pointer;
   background-position: 0.4rem;
-  background-image: url(img/lua.png);
+  background-image: url(img/sol.svg);
   background-repeat: no-repeat;
   background-size: 1.3rem;
   margin-bottom: 0.5rem;
