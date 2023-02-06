@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+:root {
+  --tema-dark: url("img/noite.jpeg");
+  --tema-light: url("img/dia.jpeg");
+}
+
+.principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.principal .timeHor {
+  position: absolute;
+  font-weight: 700;
+  font-size: 2rem;
+  color: rgb(4, 133, 0);
+}
+
+.principal .dataAtual {
+  position: absolute;
+  margin-top: 3.5rem;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: rgb(4, 133, 0);
+}
+.temaDark {
+  height: 25rem;
+  width: 30rem;
+  border-radius: 0.8rem;
+  background: var(--tema-dark);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.temaLight {
+  height: 25rem;
+  width: 30rem;
+  border-radius: 0.8rem;
+  background: var(--tema-light);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.temaLight .button-troca-cor {
+  padding-left: 1rem;
+  color: rgb(0, 0, 0);
+  font-size: 0.9rem;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  background-position: 0.4rem;
+  background-image: url(img/sol.svg);
+  background-repeat: no-repeat;
+  background-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+  width: 7.8rem;
+  height: 2.8rem;
+
+  transition: 0.3s;
+}
+
+.temaLight .button-troca-cor:hover {
+  transform: scale(1.1);
+}
+
+.temaDark .button-troca-cor {
+  padding-left: 1rem;
+  color: rgb(0, 0, 0);
+  font-size: 0.9rem;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  background-position: 0.4rem;
+  background-image: url(img/lua.png);
+  background-repeat: no-repeat;
+  background-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+  width: 7.8rem;
+  height: 2.8rem;
+
+  transition: 0.3s;
+}
+
+.temaDark .button-troca-cor:hover {
+  transform: scale(1.1);
+}
