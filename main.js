@@ -5,7 +5,7 @@ function trocarCor() {
   if (tema.className == "temaLight") {
     tema.classList.add("temaDark");
     tema.classList.remove("temaLight");
-    backgroudPrincipal.style.background = "rgb(204, 204, 204)";
+    backgroudPrincipal.style.background = "#151515";
   } else {
     tema.classList.add("temaLight");
     tema.classList.remove("temaDark");
